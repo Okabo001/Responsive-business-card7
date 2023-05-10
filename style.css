@@ -1,0 +1,192 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  background-color: rgb(230,230,230);
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0,0,0,0.2)
+}
+
+.card{
+  width: calc(550px * size / 100 );
+  height: calc(450px * size / 100 );
+  display: flex;
+  flex-grow: 1;
+  justify-content: flex-end;
+  transform: rotate(-30deg);
+  position: relative;
+  z-index:1;
+}
+  
+  .left{
+    background-color: rgba(230,230,230,1);
+    width: 50%;
+    transform: rotate(-6deg) skew(-6deg, -6deg);
+    margin-right: -3px;
+    border: 1px solid rgba(20,20,20, .2);
+  }
+  
+  .content {
+    height: calc(100% 80px * size / 100 );
+    width: auto;
+    margin: calc(18px * size / 100 );
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+    .icon{
+      display: flex;
+      height: 64px;
+      width: 64px;
+      background-position: center bottom;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    
+  
+  
+  .content div{
+    align-self: center; 
+    margin-top: 8px;
+  }
+  
+  .right{
+    background-color: rgba(230, 230, 230, 1);
+    background-image: url(https://cdn1.designhill.com/uploads/pagefile/1541507080-14850242055be188084ba336-15014674.svg?ver=2.10.37);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+    transform: rotate(6deg) skew(6deg, 6deg);
+    margin-left: -3px;
+    color: rgb(32,32,32);
+    border: 1px solid rgba(20,20,20, .3);
+  }
+  
+  ::before{
+    content: inherit;
+    background-color: rgba(0,0,0,.7);
+    position:absolute;
+    bottom: 5px;
+    right: calc(210px * size / 100 );
+    height: calc(130px * size / 100 );
+    width: calc(130px * size / 100 );
+    transform: rotate(45deg) skew(-32deg, -32deg);
+    z-index:-1;
+  }
+    .center-text{
+      font-size: (180px* size / 100 ) ;
+      width:  calc(180px * size / 100 ) ;
+      height: calc(30px * size / 100 ) ;
+      padding:calc(45px * size / 100 ); 
+      background: rgba(0,0,0,0.8);
+    }
+
+
+.center-text{
+  text-align: center;
+}
+.align-top{
+  position: absolute;
+  top: 48px;
+  left: 48px;
+size: 100;
+}
+
+.body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  background-color: rgb(230,230,230);
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0,0,0,0.2)
+}
+
+.card{
+  width: calc(550px * size / 100 );
+  height: calc(450px * size / 100 );
+  display: flex;
+  flex-grow: 1;
+  justify-content: flex-end;
+  transform: rotate(-30deg);
+  position: relative;
+  z-index:1;
+}
+  .left{
+    background-color: rgba(230,230,230,1);
+    width: 50%;
+    transform: rotate(-6deg) skew(-6deg, -6deg);
+    margin-right: -3px;
+    border: 1px solid rgba(20,20,20, .2);
+  }
+  
+  .content {
+    height: fit-content;
+    width: auto;
+    margin: calc(18px 100vw 50rem);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+    .icon{
+      display: flex;
+      height: 64px;
+      width: 64px;
+      background-position: center bottom;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    
+  .content div{
+    align-self: center; 
+    margin-top: 8px;
+  }
+  
+  .right{
+    background-color: rgba(230, 230, 230, 1);
+    background-image: url(https://cdn1.designhill.com/uploads/pagefile/1541507080-14850242055be188084ba336-15014674.svg?ver=2.10.37);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+    transform: rotate(6deg) skew(6deg, 6deg);
+    margin-left: -3px;
+    color: rgb(32,32,32);
+    border: 1px solid rgba(20,20,20, .3);
+  }
+  
+  ::before{
+    content: icon;
+    background-color: rgba(0,0,0,.7)
+    position:absolute;
+    bottom: 5px;
+    right: inherit; 
+    left calc(130px * size / 100 );
+    width: calc(130px * size / 100 );
+    transform: rotate(45deg) skew(-32deg, -32deg);
+    Z-index: -1 ;
+  }
+    .box-shadow{
+      width: calc(180px * size / 100 );
+      height: calc(180px * size / 100 );
+     padding:  calc(30px * size / 100 );
+     text-shadow: calc(45px * size / 100 );
+
+      background-color: rgb(13, 221, 221) ;
+  }
+
+
+.center.text{
+  text-align: center;
+}
+.align-top{
+  position: absolute;
+  top: 48px;
+  left: 48px;
+}
